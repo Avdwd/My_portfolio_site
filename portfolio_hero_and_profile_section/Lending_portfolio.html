@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html class="light" lang="uk">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Ярослав Шинкаренко - Портфоліо вчителя</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect"/>
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;900&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#137fec",
+                        "primary-dark": "#0b5cb5",
+                        "accent": "#facc15",
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#101922",
+                    },
+                    fontFamily: { "display": ["Lexend", "sans-serif"] },
+                },
+            },
+        }
+    </script>
+    <style>
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Lexend', sans-serif; }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-[#111418] dark:text-white">
+<div class="relative flex h-auto min-h-screen w-full flex-col overflow-x-hidden">
+    
+    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-[#f0f2f4] dark:bg-background-dark/90 dark:border-gray-800">
+        <div class="px-4 md:px-10 py-3 flex items-center justify-between max-w-[1280px] mx-auto w-full">
+            <div class="flex items-center gap-4 text-[#111418] dark:text-white">
+                <div class="size-10 bg-primary/10 rounded-full flex items-center justify-center text-primary">
+                    <span class="material-symbols-outlined">terminal</span>
+                </div>
+                <div>
+                    <h2 class="text-lg font-bold leading-tight">Ярослав Шинкаренко</h2>
+                    <p class="text-xs text-slate-500 font-medium">Вчитель математики, інформатики та ФК</p>
+                </div>
+            </div>
+            <nav class="hidden md:flex flex-1 justify-end gap-8 items-center">
+                <div class="flex items-center gap-6">
+                    <a class="text-sm font-medium hover:text-primary transition-colors" href="#home">Головна</a>
+                    <a class="text-sm font-medium hover:text-primary transition-colors" href="#profile">Профіль</a>
+                    <a class="text-sm font-medium hover:text-primary transition-colors" href="#methodology">Методика</a>
+                    <a class="text-sm font-medium hover:text-primary transition-colors" href="#achievements">Досягнення</a>
+                </div>
+                <button class="h-10 px-6 bg-primary hover:bg-primary-dark rounded-full text-white text-sm font-bold shadow-sm transition-all">
+                    Завантажити CV
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="flex-grow flex flex-col items-center w-full">
+        <section id="home" class="w-full max-w-[1280px] px-4 md:px-10 lg:px-20 py-12 md:py-20">
+            <div class="flex flex-col-reverse lg:flex-row gap-12 items-center">
+                <div class="flex flex-col gap-6 lg:w-1/2 items-start text-left">
+                    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 text-primary border border-blue-100">
+                        <span class="material-symbols-outlined text-[18px]">verified</span>
+                        <span class="text-xs font-bold uppercase">Атестація 2026</span>
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black leading-[1.1] tracking-tight">
+                            Цифрове <br/><span class="text-primary">Портфоліо вчителя</span>
+                        </h1>
+                        <p class="text-slate-600 dark:text-slate-300 text-lg mt-2">
+                            Інтеграція математичної точності, IT-технологій та фізичного розвитку для формування успішної особистості.
+                        </p>
+                    </div>
+                    <div class="flex flex-wrap gap-4">
+                        <a href="#methodology" class="flex h-12 items-center px-8 bg-primary text-white font-bold rounded-lg shadow-lg hover:bg-primary-dark transition-all">Розробки уроків</a>
+                        <a href="#achievements" class="flex h-12 items-center px-8 bg-white border border-slate-200 text-[#111418] font-bold rounded-lg hover:bg-slate-50 transition-all">Мій досвід</a>
+                    </div>
+                </div>
+                <div class="lg:w-1/2 w-full flex justify-center relative">
+                    <div class="absolute -z-10 top-10 -right-10 w-64 h-64 bg-accent/20 rounded-full blur-3xl"></div>
+                    <div class="relative w-full max-w-[450px] aspect-square rounded-2xl overflow-hidden shadow-2xl border-4 border-white">
+                         <div class="w-full h-full bg-slate-200 flex items-center justify-center">
+                            <span class="material-symbols-outlined text-8xl text-slate-400">person</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="profile" class="w-full bg-white dark:bg-slate-900 border-y border-slate-100 dark:border-slate-800">
+            <div class="max-w-[1280px] mx-auto px-4 md:px-10 lg:px-20 py-16">
+                <h2 class="text-3xl font-bold mb-12 text-center md:text-left">Професійний профіль</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="p-6 rounded-xl border border-slate-200 bg-white dark:bg-slate-800">
+                        <span class="material-symbols-outlined text-primary text-4xl mb-4">school</span>
+                        <h3 class="font-bold text-lg mb-2">Освіта</h3>
+                        <p class="text-sm text-slate-600 dark:text-slate-400">ЛНУ імені Тараса Шевченка, 4 курс ІПЗ. Спеціалізація: Інженерія програмного забезпечення.</p>
+                    </div>
+                    <div class="p-6 rounded-xl border border-slate-200 bg-white dark:bg-slate-800">
+                        <span class="material-symbols-outlined text-primary text-4xl mb-4">psychology</span>
+                        <h3 class="font-bold text-lg mb-2">Предмети</h3>
+                        <p class="text-sm text-slate-600 dark:text-slate-400">Викладання математики, інформатики та фізичної культури. Поєднання точних наук з активним способом життя.</p>
+                    </div>
+                    <div class="p-6 rounded-xl border border-slate-200 bg-white dark:bg-slate-800">
+                        <span class="material-symbols-outlined text-accent text-4xl mb-4">fitness_center</span>
+                        <h3 class="font-bold text-lg mb-2">Спортивна база</h3>
+                        <p class="text-sm text-slate-600 dark:text-slate-400">Досвід у волейболі, карате та спортивному орієнтуванні. Тренерська діяльність.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="methodology" class="w-full max-w-[1280px] px-4 md:px-10 lg:px-20 py-16">
+            <div class="relative overflow-hidden rounded-2xl bg-primary text-white px-8 py-12 md:px-12 shadow-2xl">
+                <div class="relative z-10 flex flex-col md:flex-row items-center justify-between gap-8">
+                    <div class="max-w-2xl">
+                        <span class="text-sm font-bold uppercase tracking-widest text-blue-100">Методична проблема</span>
+                        <h2 class="text-3xl md:text-4xl font-black mt-2">Використання IT-інструментів у фізичному вихованні та математиці</h2>
+                        <p class="mt-4 text-blue-100">Розробка власних Android-додатків для спортивного орієнтування та автоматизація навчального процесу.</p>
+                    </div>
+                    <button class="bg-white text-primary font-bold px-8 py-4 rounded-xl shadow-lg hover:scale-105 transition-transform">
+                        Переглянути кейси
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="achievements" class="w-full max-w-[1280px] px-4 md:px-10 lg:px-20 py-16">
+            <h2 class="text-3xl font-bold mb-8">Мій шлях та проєкти</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="flex gap-4">
+                    <div class="size-12 rounded-lg bg-accent/20 flex items-center justify-center flex-shrink-0">
+                        <span class="material-symbols-outlined text-accent">qr_code_2</span>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-lg">Проєкт "VibeChecker"</h4>
+                        <p class="text-slate-500 text-sm">Розробка інтелектуальної системи відстеження настрою та активності учнів.</p>
+                    </div>
+                </div>
+                <div class="flex gap-4">
+                    <div class="size-12 rounded-lg bg-blue-100 flex items-center justify-center flex-shrink-0">
+                        <span class="material-symbols-outlined text-primary">sprint</span>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-lg">Спортивне орієнтування</h4>
+                        <p class="text-slate-500 text-sm">Створення Android-застосунку для сканування QR-кодів на старті та фініші змагань.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="w-full max-w-[1280px] px-4 md:px-10 lg:px-20 py-16">
+            <h2 class="text-3xl font-bold mb-8 flex items-center gap-2">
+                <span class="material-symbols-outlined text-primary">groups</span>
+                Робота з учнями та спортивне життя
+            </h2>
+            <div class="flex gap-6 overflow-x-auto snap-x snap-mandatory pb-6 scrollbar-hide" style="scrollbar-width: none;">
+                <div class="snap-center shrink-0 w-[300px] md:w-[400px] aspect-video bg-slate-200 rounded-2xl overflow-hidden relative group">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-6">
+                        <p class="text-white font-medium">Тренування з волейболу</p>
+                    </div>
+                    </div>
+                <div class="snap-center shrink-0 w-[300px] md:w-[400px] aspect-video bg-slate-300 rounded-2xl overflow-hidden relative group">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-6">
+                        <p class="text-white font-medium">Секція карате</p>
+                    </div>
+                </div>
+                <div class="snap-center shrink-0 w-[300px] md:w-[400px] aspect-video bg-slate-200 rounded-2xl overflow-hidden relative group">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-6">
+                        <p class="text-white font-medium">Урок інформатики: програмування на Python</p>
+                    </div>
+                </div>
+            </div>
+            <p class="text-sm text-slate-400 mt-2 text-center md:text-left">← Гортайте вбік, щоб побачити більше →</p>
+        </section>
+
+        <section id="certificates" class="w-full bg-slate-50 dark:bg-slate-900/50 py-16 border-y border-slate-100 dark:border-slate-800">
+            <div class="max-w-[1280px] mx-auto px-4 md:px-10 lg:px-20">
+                <h2 class="text-3xl font-bold mb-8 flex items-center gap-2">
+                    <span class="material-symbols-outlined text-accent">workspace_premium</span>
+                    Підвищення кваліфікації
+                </h2>
+                <div class="flex gap-4 overflow-x-auto snap-x snap-mandatory pb-4">
+                    <div class="snap-center shrink-0 w-[200px] md:w-[250px] aspect-[1/1.4] bg-white border border-slate-200 shadow-sm rounded-lg p-2 flex flex-col gap-2">
+                        <div class="flex-grow bg-slate-100 rounded flex items-center justify-center">
+                            <span class="material-symbols-outlined text-4xl text-slate-300">description</span>
+                        </div>
+                        <p class="text-[12px] font-bold text-center leading-tight">Цифрова грамотність вчителя</p>
+                    </div>
+                    <div class="snap-center shrink-0 w-[200px] md:w-[250px] aspect-[1/1.4] bg-white border border-slate-200 shadow-sm rounded-lg p-2 flex flex-col gap-2">
+                        <div class="flex-grow bg-slate-100 rounded flex items-center justify-center">
+                            <span class="material-symbols-outlined text-4xl text-slate-300">description</span>
+                        </div>
+                        <p class="text-[12px] font-bold text-center leading-tight">Мінна безпека (для вчителів)</p>
+                    </div>
+                    <div class="snap-center shrink-0 w-[200px] md:w-[250px] aspect-[1/1.4] bg-white border border-slate-200 shadow-sm rounded-lg p-2 flex flex-col gap-2">
+                        <div class="flex-grow bg-slate-100 rounded flex items-center justify-center">
+                            <span class="material-symbols-outlined text-4xl text-slate-300">description</span>
+                        </div>
+                        <p class="text-[12px] font-bold text-center leading-tight">Методика викладання НУШ</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="w-full bg-white dark:bg-background-dark border-t border-slate-200 py-12">
+        <div class="max-w-[1280px] mx-auto px-4 text-center md:text-left flex flex-col md:flex-row justify-between items-center gap-6">
+            <div>
+                <h3 class="font-bold">Ярослав Шинкаренко</h3>
+                <p class="text-slate-500 text-sm">© 2026. Портфоліо вчителя</p>
+            </div>
+            <div class="flex gap-4">
+                <a href="#" class="w-10 h-10 rounded-full bg-slate-100 flex items-center justify-center hover:bg-primary hover:text-white transition-all"><span class="material-symbols-outlined">link</span></a>
+                <a href="#" class="w-10 h-10 rounded-full bg-slate-100 flex items-center justify-center hover:bg-primary hover:text-white transition-all"><span class="material-symbols-outlined">mail</span></a>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
