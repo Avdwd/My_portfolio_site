@@ -93,3 +93,21 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 });
+
+// Навігація для слайдера сертифікатів
+const certContainer = document.getElementById('certificates-container');
+const certPrevBtn = document.getElementById('certPrevBtn');
+const certNextBtn = document.getElementById('certNextBtn');
+
+if (certContainer && certPrevBtn && certNextBtn) {
+    // Величина прокрутки (приблизно ширина однієї картки + відступ)
+    const scrollAmount = 266; 
+
+    certNextBtn.addEventListener('click', () => {
+        certContainer.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+    });
+
+    certPrevBtn.addEventListener('click', () => {
+        certContainer.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+    });
+}
